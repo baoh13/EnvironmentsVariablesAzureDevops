@@ -8,5 +8,5 @@ import { environment } from 'src/environments/environment';
 })
 export class AppComponent {
   title = 'EnvironmentsVariablesAzureDevops';
-  private environment = environment.url;
+  environment = environment.url;
 }
